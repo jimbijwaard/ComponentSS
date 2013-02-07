@@ -1,10 +1,9 @@
 ComponentSS
 ===========
 
-ComponentSS is my personal collection of reusable CSS components for quick development
+ComponentSS is build on Compass/Sass. Inside is a collection of reusable (S)CSS components for quick development which build upon the following concepts:
 
-Based on:
 - SMACSS by Jonathan Snook
 - OOCSS by Nicole Sullivan
-- Normalize.css and Idiomatic CSS by Nicolas Galagher
+- Normalize.css, SUIT and Idiomatic CSS by Nicolas Galagher
 - CSSWizardry / Beautons by Harry Roberts

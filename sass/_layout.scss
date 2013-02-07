@@ -1,0 +1,21 @@
+body{
+  background-color:$body-bg-color;
+}
+
+.main{
+  background-color: #fff;
+}
+
+.container{
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+  width: 100%;
+  max-width: $grid-width;
+}
+
+//Proof of concept; full width block with delimited container inside
+.section--accent{
+  color:#000;
+  background-color:#5cf;
+}
