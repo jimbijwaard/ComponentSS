@@ -2,16 +2,26 @@ body{
   background-color:$body-bg-color;
 }
 
+header, .main, footer{
+  padding: 2em;
+}
+
 .main{
   background-color: #fff;
 }
 
-.container{
-  display: block;
+.row{
   margin: auto;
-  padding: 2em 0;
   width: 100%;
-  max-width: $grid-width;
+  max-width: $grid-max-width;
+}
+
+.col.content{
+  width:75%;
+}
+
+.col.sidebar{
+  width:25%;
 }
 
 //Proof of concept; full width block with delimited container inside

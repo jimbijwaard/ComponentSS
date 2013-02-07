@@ -1,17 +1,39 @@
-// $base - generic styling to have a common starting point for all projects
-@import "base/images";
-@import "base/lists";
+// ===============================================================
+// §SETTINGS
+// ===============================================================
+
+// §BRAND
+// ===============================================================
+
+  // Colorscheme
+  $primary-color: #336699;
+  $secondary-color: #f46801;
+  $body-bg-color: #fafafa;
+
+  // Typograpy
+  $header-font-family: "Georgia", serif;
+  $body-font-family: "Helvetica Neue", sans-serif;
+
+  // Layout
+  $grid-width: 1000px;
+
+
+// §Base - generic styling to have a common starting point for all projects
+// ===============================================================
 @import "base/normalize";
 @import "base/typography";
 
-// $utilities - utilities used by components; layout helper classes, column widths etc.
-@import "utilities/layout";
-@import "utilities/widths";
+// §Utilities - utilities used by components; layout helper classes, column widths etc.
+// ===============================================================
+@import "utilities/images";
+@import "utilities/lists";
 
-// $components
+// §Components
+// ===============================================================
+@import "components/grid";
 @import "components/buttons";
 
-// Project specific files
-@import "variables";
+// §Project Files
+// ===============================================================
 @import "layout";
 // @import "modules.scss";
