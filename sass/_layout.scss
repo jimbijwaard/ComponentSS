@@ -1,3 +1,11 @@
+// ===============================================================
+// LAYOUT >> Proof of concept; Shows how easy it is to quickstart
+// a project using components.
+// ===============================================================
+
+// Base layout
+// ===============================================================
+
 body{
   background-color:$body-bg-color;
 }
@@ -10,11 +18,8 @@ header, .main, footer{
   background-color: #fff;
 }
 
-.row{
-  margin: auto;
-  width: 100%;
-  max-width: $grid-max-width;
-}
+// Grid layout >> Extends the grid component
+// ===============================================================
 
 .col.content{
   width:75%;
@@ -24,7 +29,6 @@ header, .main, footer{
   width:25%;
 }
 
-//Proof of concept; full width block with delimited container inside
 .section--accent{
   color:#000;
   background-color:#5cf;

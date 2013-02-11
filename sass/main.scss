@@ -2,21 +2,26 @@
 // §SETTINGS
 // ===============================================================
 
-// §BRAND
+// §BRAND >> Replace with your own brand styles
 // ===============================================================
 
-  // Colorscheme
-  $primary-color: #336699;
-  $secondary-color: #f46801;
-  $body-bg-color: #fafafa;
+// Colorscheme
+$primary-color: #336699;
+$secondary-color: #f46801;
+$body-bg-color: #fafafa;
 
-  // Typograpy
-  $header-font-family: "Georgia", serif;
-  $body-font-family: "Helvetica Neue", sans-serif;
+// Typograpy
+$header-font-family: "Georgia", serif;
+$body-font-family: "Helvetica Neue", sans-serif;
 
-  // Layout
-  $grid-max-width: 1000px;
+// Layout
+$grid-max-width: 1000px; // Limits the max width of the grid. Set to 100% for full-width applications
 
+
+// ===============================================================
+// §COMPONENTS >> Choose the components you would like to use.
+// Each component can be used individually.
+// ===============================================================
 
 // §Base - generic styling to have a common starting point for all projects
 // ===============================================================
@@ -33,7 +38,9 @@
 @import "components/grid";
 @import "components/buttons";
 
-// §Project Files
+
+// ===============================================================
+// §PROJECT >> Import your project specific files here
 // ===============================================================
 @import "layout";
 // @import "modules.scss";

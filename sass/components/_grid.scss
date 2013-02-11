@@ -1,8 +1,16 @@
-/* Dead Simple Grid (c) 2012 Vladimir Agafonkin */
+// §GRID COMPONENT >> Based on the Dead Simple Grid (c) 2012 by Vladimir Agafonkin
+// ===============================================================
 
 .col {
   padding: 0 1.5em;
 }
+
+.row{
+  margin: auto;
+  width: 100%;
+  max-width: $grid-max-width;
+}
+
 .row .row {
   margin: 0 -1.5em;
 }

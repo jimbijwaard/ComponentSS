@@ -1,18 +1,19 @@
-/* $IMAGE COMPONENT */
-/* ===================================== */
+// ===============================================================
+// $IMAGE UTILITY
+// ===============================================================
 
-/* In general images are fluid. */
+// In general images are fluid.
 img{
     max-width:100%;
 }
 
-/* Make images non-fluid `width` and/or `height` attributes are specified. */
+// Make images non-fluid `width` and/or `height` attributes are specified.
 img[width],
 img[height]{
     max-width:none;
 }
 
-/* Image placement variations. */
+// Image placement variations
 .img--right{
     float:right;
     margin-bottom:1em;
@@ -30,7 +31,7 @@ img[height]{
     margin-left:auto;
 }
 
-/* Fix bottom margin on images in `figure` elements. */
+// Fix bottom margin on images in `figure` elements.
 figure > img{
     display:block;
     margin-bottom:1em;

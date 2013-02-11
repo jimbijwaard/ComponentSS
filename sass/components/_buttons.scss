@@ -1,4 +1,5 @@
-// §BASE BUTTON
+// §BASE BUTTON COMPONENT
+// ===============================================================
 
 .btn{
     display:inline-block;
@@ -16,7 +17,8 @@
     text-decoration:none;
 }
 
-/* BUTTON SIZES */
+// §BUTTON SIZES
+// ===============================================================
 
 .btn--small{
     padding-right:0.5em;
@@ -38,7 +40,8 @@
     text-align:center;
 }
 
-/* BUTTON SHAPES */
+// §BUTTON SHAPES
+// ===============================================================
 
 .btn--round{
     border-radius:999px;
